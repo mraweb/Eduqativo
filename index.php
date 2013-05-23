@@ -4,7 +4,7 @@
 <meta charset="utf-8" />
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <title>Eduqativo - Instituto Choque Cultural</title>
-<!--<link rel="stylesheet" type="text/css" href="css/style.css">-->
+<link rel="stylesheet" type="text/css" href="css/style.css">
 <!--[if ie]>
 	<script type="text/javascript" src="js/html5-ie.js"></script>
 <![endif]-->
@@ -13,23 +13,7 @@
 <body itemscope itemtype="http://schema.org/WebPage">
 
 <div class="bg-home">
-    <header role="banner">
-        <h1><a href="/" title="Eduqativo - Instituto Choque Cultural">Eduqativo <span>Instituto Choque Cultural</span></a></h1>
-        
-        <nav role="navigation">
-            <ul>
-                <li><a href="/" title="Home" class="bt-home">Home</a></li>
-                <li><a href="quem-somos.php" title="Quem Somos" class="bt-quem">Quem Somos</a></li>
-                <li><a href="areas-de-atuacao.php" title="Áreas de Atuação" class="bt-area">Áreas de Atuação</a></li>
-                <li><a href="como-atuamos.php" title="Como Atuamos" class="bt-como">Como Atuamos</a></li>
-                <li><a href="parceiros.php" title="Parceiros" class="bt-parc">Parceiros</a></li>
-                <li><a href="participe.php" title="Participe" class="bt-part">Participe</a></li>
-                <li><a href="acontecendo.php" title="Acontecendo" class="bt-acon">Acontecendo</a></li>
-                <li><a href="conteudo.php" title="Conteúdo" class="bt-cont">Conteúdo</a></li>
-                <li><a href="fale-conosco.php" title="Fale Conosco" class="bt-fale">Fale Conosco</a></li>
-            </ul>
-        </nav>
-    </header><!-- FINAL HEADER -->
+    <?php include "inc/header.php"; ?>
     
     <div role="main">
         <section id="content">

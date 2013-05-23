@@ -12,13 +12,9 @@ html, body{ min-width: 980px;}
 	overflow:hidden;
 	position:absolute;
 }
-h1, h2, h3, h4{
-	font-style: normal;
-	font-weight: normal;
-	font-family: 'exo', sans-serif;
-}
+h1, h2, h3, h4{ font-style: normal; font-weight: normal;}
 a, h1, h2, h3, h4, article, aside, dialog, figure, footer, header, hgroup, nav, section, blockquote, label { display: block;}
-a{ text-decoration: none; color: #919191;}
+a{ text-decoration: none; color: #565656;}
 a:hover, a:focus{ background-position:left bottom;}
 a.ativo{ background-position:left bottom;}
 a.link{ display:inline;}
@@ -31,94 +27,88 @@ img{ border: none;}
 .img-left{ float: left; margin: 0 15px 10px 0;}
 
 body{
-	color: #004f41;
+	color: #565656;
 	font-size: 12px;
-	font-family: Verdana, Geneva, sans-serif;
-	background-color: #5f594d;
+	font-family: 'Arial', Helvetica, sans-serif;
+	background: #565656;
 }
 
 /*** HOME ***/
 .bg-home{
 	width: 100%;
 	display: table;
-	background: #FFF url(../img/bghome.jpg) center top no-repeat;
+	background: #dbe4ec url(../img/faixa.jpg) center top no-repeat;
 }
 header{
-	width: 960px;
-	height: 134px;
+	width: 980px;
+	height: 246px;
 	margin: 0 auto;
+	padding-top: 94px;
+	position: relative;
 }
 header h1{
-	width: 240px;
-	height: 69px;
-	padding-top: 18px;
+	width: 850px;
+	height: 132px;
+	position: absolute;
+	left: 0;
+	top: 152px;
+	padding: 23px 0 0 130px;
+	background: url(../img/logo.jpg) 0 0 no-repeat;
 }
 header h1 a{
-	width: 240px;
-	height: 69px;
-	background-image: url(../img/logo.jpg);
+	width: 850px;
+	height: 132px;
+	font-size: 128px;
+	font-weight: bold;
+	line-height: 50px;
+	text-transform: uppercase;
+	letter-spacing: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* FOOTER */
-footer .selo{
-	width: 91px;
-	height: 15px;
-	padding: 0;
+header h1 a span{ font-size: 33px; letter-spacing: 2px;}
+header nav ul{ width: 980px;}
+header nav ul li{
+	float: left;
+	padding: 0 12px 0 7px;
+	background: url(../img/ball.jpg) right 5px no-repeat;
 }
-footer .selo a{
-	width: 91px;
-	height: 15px;
-	background-image:url(../img/ao5.jpg);
+header nav ul .sem-bg{ background: none;}
+header nav ul li a{
+	color: #506b83;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-bottom: 7px;
 }
+header nav ul li a:hover.bt-home, header nav ul li a.ativo1{ background: url(../img/home.jpg) 0 bottom no-repeat;}
+header nav ul li a:hover.bt-quem, header nav ul li a.ativo2{ background: url(../img/quem-somos.jpg) 0 bottom no-repeat;}
+header nav ul li a:hover.bt-area, header nav ul li a.ativo3{ background: url(../img/areas.jpg) 0 bottom no-repeat;}
+header nav ul li a:hover.bt-como, header nav ul li a.ativo4{ background: url(../img/como.jpg) 0 bottom no-repeat;}
+header nav ul li a:hover.bt-parc, header nav ul li a.ativo5{ background: url(../img/parceiros.jpg) 0 bottom no-repeat;}
+header nav ul li a:hover.bt-part, header nav ul li a.ativo6{ background: url(../img/participe.jpg) 0 bottom no-repeat;}
+header nav ul li a:hover.bt-acon, header nav ul li a.ativo7{ background: url(../img/acontecendo.jpg) 0 bottom no-repeat;}
+header nav ul li a:hover.bt-cont, header nav ul li a.ativo8{ background: url(../img/conteudos.jpg) 0 bottom no-repeat;}
+header nav ul li a:hover.bt-fale, header nav ul li a.ativo9{ background: url(../img/fale.jpg) 0 bottom no-repeat;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
