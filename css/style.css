@@ -30,7 +30,7 @@ body{
 	color: #565656;
 	font-size: 12px;
 	font-family: 'Arial', Helvetica, sans-serif;
-	background: #565656;
+	background: #333;
 }
 
 /*** HOME ***/
@@ -88,6 +88,117 @@ header nav ul li a:hover.bt-part, header nav ul li a.ativo6{ background: url(../
 header nav ul li a:hover.bt-acon, header nav ul li a.ativo7{ background: url(../img/acontecendo.jpg) 0 bottom no-repeat;}
 header nav ul li a:hover.bt-cont, header nav ul li a.ativo8{ background: url(../img/conteudos.jpg) 0 bottom no-repeat;}
 header nav ul li a:hover.bt-fale, header nav ul li a.ativo9{ background: url(../img/fale.jpg) 0 bottom no-repeat;}
+#content{ width: 980px; margin: 0 auto;}
+.noticias{
+	width: 238px;
+	height: 325px;
+	float: left;
+	margin: 0 8px 20px 0;
+	cursor: pointer;
+}
+.noticias div{
+	width: 230px;
+	height: 253px;
+	border: 1px solid #999fa5;
+	margin-bottom: 10px;
+	padding: 3px 3px 0 3px;
+}
+.noticias div p{ padding-bottom: 0;}
+.noticias div a{
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'Arial', sans-serif;
+	color: #000;
+}
+.sem-mrg-right{ margin-right: 0;}
+.laranja{ background-color: #ffdaa6;}
+.lilas{ background-color: #a273bc;}
+.verde{ background-color: #c2ffc4;}
+.pink{ background-color: #ff97fe;}
+.txt-laranja{ color: #dd9f49;}
+.txt-lilas{ color: #a273bc;}
+.txt-verde{ color: #4ccb51;}
+.txt-pink{ color: #ff97fe;}
+
+.box-areas{
+	width: 245px;
+	height: 275px;
+	float: left;
+}
+.box-areas h2{
+	width: 160px;
+	height: 150px;
+	padding-right: 30px;
+	font-size: 19px;
+	line-height: 30px;
+	text-transform: uppercase;
+	border-bottom: 1px dashed #858585;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+.parceiros{ width: 697px; float: left;}
+.parceiros h3, .participe h3{ font-size: 30px; font-weight: bold;}
+.parceiros ul li{ float: left; padding: 15px 30px 0 0;}
+.parceiros ul li h4{ padding-bottom: 7px;}
+.parceiros ul li img{ margin-right: 7px; float: left;}
+.participe{
+	width: 280px;
+	float: right;
+	cursor: pointer;
+}
+.participe h4{
+	font-size: 14px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.participe:hover a{ text-decoration: underline;}
+
+/* QUEM SOMOS */
+header .logo{
+	width: 870px;
+	height: 132px;
+	position: absolute;
+	left: 0;
+	top: 152px;
+	padding: 23px 0 0 110px;
+	background: url(../img/logo1.jpg) 0 0 no-repeat;
+}
+header .logo a{
+	width: 870px;
+	height: 112px;
+	font-size: 77px;
+	font-weight: bold;
+	line-height: 35px;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+}
+header .logo a span{
+	clear: both;
+	font-size: 20px;
+	letter-spacing: 2px;
+	margin-left: 5px;
+}
+#content h1{
+	font-size: 22px;
+	text-transform: uppercase;
+	padding-bottom: 15px;
+	font-weight: bold;
+	margin-top: -20px;
+}
+.valores{
+	width: 225px;
+	float: left;
+	margin-bottom: 50px;
+	padding-right: 20px;
+}
+.valores h2{
+	font-size: 16px;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+
+/* AREAS DE ATUACAO */
 
 
 
@@ -97,18 +208,58 @@ header nav ul li a:hover.bt-fale, header nav ul li a.ativo9{ background: url(../
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* FOOTER */
+.bg-rodape{
+	width: 100%;
+	height: 165px;
+	float: left;
+	padding-top: 35px;
+}
+footer{ width: 980px; margin: 0 auto;}
+footer ul{
+	width: 395px;
+	height: 125px;
+	float: left;
+}
+footer ul li{
+	width: 167px;
+	float: left;
+	padding: 0 0 7px 30px;
+	background: url(../img/seta.jpg) 20px 3px no-repeat;
+}
+footer ul li a{
+	color: #FFF;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-family: "Arial", sans-serif;
+	font-weight: normal;
+}
+.face{
+	width: 275px;
+	height: 125px;
+	float: left;
+}
+.contatos{
+	width: 263px;
+	height: 100px;
+	float: right;
+	padding:  0 0 0 46px;
+	background: url(../img/contatos.jpg) 0 0 no-repeat;
+}
+.contatos p{
+	color: #FFF;
+	font-size: 29px;
+	padding-bottom: 15px;
+}
+.contatos p span{ font-size: 20px;}
+.contatos p a{ color: #FFF; font-size: 17px;}
+.hcc{
+	width: 72px;
+	height: 9px;
+	margin: 0 auto;
+}
+.hcc a{
+	width: 72px;
+	height: 9px;
+	background-image: url(../img/hcc.jpg);
+}
