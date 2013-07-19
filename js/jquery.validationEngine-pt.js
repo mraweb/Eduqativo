@@ -120,5 +120,3 @@
     };
     $.validationEngineLanguage.newLang();
 })(jQuery);
-
-    

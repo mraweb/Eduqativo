@@ -13,6 +13,8 @@
 <body itemscope itemtype="http://schema.org/WebPage">
 
 <div class="bg-home">
+    <?php include "inc/slide.php"; ?>
+    
     <?php include "inc/header.php"; ?>
     
     <div role="main">
@@ -24,8 +26,6 @@
 
                     <h2><a href="noticia-detalhe.php" title="Loren Ipsum dolor it amet, consectour.">Loren Ipsum dolor it amet, consectour.</a></h2>
                 </div>
-
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. [...]</p>
             </section>
 
             <!-- NOTICIA REFERENTE A AREA DE ATUACAO - LABORATORIO  -->
@@ -35,8 +35,6 @@
 
                     <h2><a href="noticia-detalhe.php" title="Loren Ipsum dolor it amet, consectour.">Loren Ipsum dolor it amet, consectour.</a></h2>
                 </div>
-
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. [...]</p>
             </section>
 
             <!-- NOTICIA REFERENTE A AREA DE ATUACAO - INCUBADORA  -->
@@ -46,8 +44,6 @@
 
                     <h2><a href="noticia-detalhe.php" title="Loren Ipsum dolor it amet, consectour.">Loren Ipsum dolor it amet, consectour.</a></h2>
                 </div>
-
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. [...]</p>
             </section>
 
             <!-- NOTICIA REFERENTE A AREA DE ATUACAO - PRODUCAO DE CONTEUDO  -->
@@ -57,8 +53,6 @@
 
                     <h2><a href="noticia-detalhe.php" title="Loren Ipsum dolor it amet, consectour.">Loren Ipsum dolor it amet, consectour.</a></h2>
                 </div>
-
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. [...]</p>
             </section>
 
             <section class="box-areas">
@@ -85,43 +79,44 @@
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. [...]</p>
             </section>
 
-            <section class="parceiros">
-                <h3>Parceiros</h3>
+            <div class="borda">
+                <section class="parceiros">
+                    <h3><a href="parceiros.php" title="Parceiros" class="link">Parceiros</a></h3>
 
-                <ul>
-                    <li>
-                        <h4>Financiadores</h4>
+                    <ul>
+                        <li>
+                            <h4>Financiadores</h4>
 
-                        <img src="img/votorantim.jpg" alt="Votorantim" />
-                        <img src="img/votorantim.jpg" alt="Votorantim" />
-                    </li>
+                            <img src="img/financiadores.jpg" alt="Parceiros Financiadores" width="254" height="150" />
+                        </li>
 
-                    <li>
-                        <h4>Estratégicos</h4>
+                        <li>
+                            <h4>Estratégicos</h4>
 
-                        <img src="img/votorantim.jpg" alt="Votorantim" />
-                    </li>
+                            <img src="img/estrategicos.jpg" alt="Parceiros Estratégicos" width="314" height="166" />
+                        </li>
 
-                    <li>
-                        <h4>Conteúdo</h4>
+                        <li>
+                            <h4>Conteúdo</h4>
 
-                        <img src="img/votorantim.jpg" alt="Votorantim" />
-                    </li>
+                            <img src="img/choque-cultural.jpg" alt="Choque Cultural" width="111" height="90" />
+                        </li>
 
-                    <li>
-                        <h4>Nossas Redes</h4>
+                        <li class="sem-pdg-right">
+                            <h4>Nossas Redes</h4>
 
-                        <img src="img/votorantim.jpg" alt="Votorantim" />
-                    </li>
-                </ul>
-            </section>
+                            <img src="img/redes.jpg" alt="Nossas Redes" width="175" height="195" />
+                        </li>
+                    </ul>
+                </section>
 
-            <section class="participe">
-                <h3><a href="participe.php" title="Participe">Participe</a></h3>
-                <h4>Seja Nosso Parceiro</h4>
+                <!--<section class="participe">
+                    <h3><a href="participe.php" title="Participe">Participe</a></h3>
+                    <h4>Seja Nosso Parceiro</h4>
 
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-            </section>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                </section>-->
+            </div>
         </section><!-- FINAL CONTENT -->  
     </div>
 </div>
@@ -129,17 +124,7 @@
 <?php include "inc/footer.php"; ?>
 
 <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
-<script type="text/javascript">
-    $("td .fsl a").css("color","#FFF"); 
-</script>
+<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
 <script type="text/javascript" src="js/scripts.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-
-

@@ -14,14 +14,14 @@
 
 .ajaxSubmit {
 	padding: 20px;
-	background: #853802;
+	background: #333333;
 	border: 1px solid #999;
 	display: none
 }
 
 .formError .formErrorContent {
 	width: 100%;
-	background: #F00;
+	background: #333333;
 	position:relative;
 	z-index:5001;
 	color: #fff;
@@ -39,11 +39,11 @@
 }
 
 .greenPopup .formErrorContent {
-	background: #33be40;
+	background: #333333;
 }
 
 .blackPopup .formErrorContent {
-	background: #393939;
+	background: #333333;
 	color: #FFF;
 }
 
@@ -70,7 +70,7 @@
 	-webkit-box-shadow: 0 2px 3px #444;
 	font-size: 0px;
 	height: 1px;
-	background: #F00;
+	background: #333333;
 	margin: 0 auto;
 	line-height: 0;
 	font-size: 0;
@@ -84,11 +84,11 @@
 }
 
 .greenPopup .formErrorArrow div {
-	background: #853802;
+	background: #333333;
 }
 
 .blackPopup .formErrorArrow div {
-	background: #853802;
+	background: #333333;
 	color: #FFF;
 }
 

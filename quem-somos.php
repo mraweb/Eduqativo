@@ -5,6 +5,7 @@
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <title>Quem Somos | Eduqativo - Instituto Choque Cultural</title>
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/colorbox.css">
 <!--[if ie]>
 	<script type="text/javascript" src="js/html5-ie.js"></script>
 <![endif]-->
@@ -13,11 +14,15 @@
 <body itemscope itemtype="http://schema.org/WebPage">
 
 <div class="bg-home">
+    <?php include "inc/slide.php"; ?>
+    
     <?php include "inc/header.php"; ?>
     
     <div role="main">
         <section id="content">
             <h1>Quem Somos</h1>
+
+            <a href="http://www.youtube.com/embed/csPfbZWWEYU?rel=0" title="Vídeo Institucional" class="hidetxt youtube">Vídeo Institucional</a>
 
             <p>O Eduqativo - Instituto Choque Cultural é uma organização social sem fins lucrativos com a missão de tornar a arte mais acessível às novas gerações. Essa proposta educativa apoia-se no inovador conceito da Educomunicação aplicado à arte, onde a educação é feita através da comunicação com um diálogo aberto para promover novos ambientes de aprendizagem mais criativos e democráticos.</p>
 
@@ -57,6 +62,14 @@
 <?php include "inc/footer.php"; ?>
 
 <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+<script type="text/javascript" src="js/jquery.colorbox.js"></script>
+<script type="text/javascript">
+// lightbox videos
+$(document).ready(function(){
+    $(".youtube").colorbox({iframe:true, innerWidth:560, innerHeight:315});
+});
+</script>
 <script type="text/javascript" src="js/scripts.js"></script>
 </body>
 </html>
